@@ -49,11 +49,10 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Hardhat Fund Me
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project is apart of the Hardhat FreeCodeCamp video.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -61,24 +60,74 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Node.js](https://nextjs.org/)
+* [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
+* [Yarn](https://yarnpkg.com/getting-started/install) instead of `npm`
+  - You'll know you've installed yarn right if you can run:
+    - `yarn --version` and get an output like: `x.x.x`
+    - You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
+  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Quickstart
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+```
+git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
+cd hardhat-fund-me-fcc
+yarn
+
+```
+### Manual installation
+
+Make a directory:
+  `mkdir hardhat-fund-me-fcc`
+  
+ Change the directory:
+   `cd hardhat-fund-me-fcc`
+   
+ Type: `Code .` in the terminal
+ 
+ Then: `yarn ad --dev hardhat`
+ 
+ `yarn hardhat`
+ 
+ Select `advanced sample project`
+ 
+### Lint
+
+.solhint.json, Solhint is a solidity linter, we can use it to lint our code
+Linting is the process of running tha will analyze code for potential errors
+`yarn solhint contracts/*.sol`
+
+## Hardhat Setup Continued
+
+### Setting prettier:
+prettierrc:
+`{
+ "tabWidth": 4,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": false
+}`
+
+prettierignore:
+`
+node_modules
+package.json
+img
+artifacts
+cache
+coverage
+.env
+.*
+README.md
+coverage.json
+`
 
 ### Prerequisites
 
@@ -180,20 +229,10 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+# Thank you!
 
+Contacts
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/PatrickAlphaC/hardhat-simple-storage-fcc
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[![Broke Tako Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/broketako)
+[![Filippo Iachello Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/filippo-iachello-b8978a200/)
+
