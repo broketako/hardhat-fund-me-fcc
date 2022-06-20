@@ -3,23 +3,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/screenshotfcc.png" alt="Logo" width="80" height="80">
+    <img src="images/screenshotfcc.png" alt="Logo" width="500" height="300">
   </a>
 
-<h3 align="center">Hardhat Simple Storage by Patrick Collins</h3>
+<h3 align="center">Hardhat Fund Me by Patrick Collins</h3>
 
   <p align="center">
     My first Github exercise inspired by the course: Learn Blockchain, Solidity, and Full Stack Web3 Developement with Javascript, by FreeCodeCamp
     <br />
-    <a href="https://github.com/smartcontractkit/full-blockchain-solidity-course-js"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/PatrickAlphaC/hardhat-fund-me-fcc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
+    <a href="https://github.com/othneildrew/Best-README-Template">Best README template </a>
+    
 </div>
 
 
