@@ -9,9 +9,9 @@
 <h3 align="center">Hardhat Simple Storage by Patrick Collins</h3>
 
   <p align="center">
-    project_description
+    My first Github exercise inspired by the course: Learn Blockchain, Solidity, and Full Stack Web3 Developement with Javascript, by FreeCodeCamp
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/smartcontractkit/full-blockchain-solidity-course-js"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
